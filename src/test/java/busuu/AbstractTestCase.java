@@ -11,11 +11,12 @@ public class AbstractTestCase {
 
     @BeforeMethod
     public void beforeMethod(Method method) {
-        logger.info("Executing Test Case: [" + method.getName() + "]"); ;
+        logger.info("Executing Test Case: [" + method.getName() + "]");
+
     }
 
     @AfterMethod
     public void afterMethod(Method method) {
-        logger.info("Ending Test Case: [" + method.getName() + "]"); ;
+        logger.info("Ending Test Case: [" + method.getName() + "]");
     }
 }
